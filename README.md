@@ -25,6 +25,6 @@ Result is a Jupyter Notebook with descriptions included or a PDF report + source
 Deadline is 3. 4. 2022
 
 
-## Reference:
+## Reference
 
 - https://homel.vsb.cz/~svo0175/MAD4_CNN.html
