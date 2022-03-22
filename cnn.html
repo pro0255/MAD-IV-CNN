@@ -21910,7 +21910,9 @@ class="
 <li>Velikosti batche.</li>
 <li>Využití již předučených modelů na rozsáhlých datových sadách.</li>
 </ul>
-<h2 id="Vyhodnocen%C3%AD-experiment%C5%AF-a-pr%C3%A1ce-se-daty">Vyhodnocen&#237; experiment&#367; a pr&#225;ce se daty<a class="anchor-link" href="#Vyhodnocen%C3%AD-experiment%C5%AF-a-pr%C3%A1ce-se-daty">&#182;</a></h2><h3 id="P%C5%99edzpracov%C3%A1n%C3%AD">P&#345;edzpracov&#225;n&#237;<a class="anchor-link" href="#P%C5%99edzpracov%C3%A1n%C3%AD">&#182;</a></h3><p>Obrázky byly načteny do paměti a jejich velikosti upravena na 150x150. Samotné obrázky obsahovaly jenom jeden kanál. Zároveň byly hodnoty pixelu normalizovaný do hodnoty mezi 0 až 1. Mimo jiné byly data upraveny, aby velikost byla kompatibilní s definovanou velikostí modelů.</p>
+<h2 id="Vyhodnocen%C3%AD-experiment%C5%AF-a-pr%C3%A1ce-se-daty">Vyhodnocen&#237; experiment&#367; a pr&#225;ce se daty<a class="anchor-link" href="#Vyhodnocen%C3%AD-experiment%C5%AF-a-pr%C3%A1ce-se-daty">&#182;</a></h2><h3 id="V%C3%BDb%C4%9Br-metriky">V&#253;b&#283;r metriky<a class="anchor-link" href="#V%C3%BDb%C4%9Br-metriky">&#182;</a></h3><p>V rámci projektu bylo vybráno f1 skóre. Důvod byl zmíněn výše. Hlavním důvodem je nevybalancovaná datová sada.</p>
+<h3 id="V%C3%BDb%C4%9Br-chyby">V&#253;b&#283;r chyby<a class="anchor-link" href="#V%C3%BDb%C4%9Br-chyby">&#182;</a></h3><p>Chyba byla vybrána BinaryCrossentropy jelikož se jedná o binární klasifikaci.</p>
+<h3 id="P%C5%99edzpracov%C3%A1n%C3%AD">P&#345;edzpracov&#225;n&#237;<a class="anchor-link" href="#P%C5%99edzpracov%C3%A1n%C3%AD">&#182;</a></h3><p>Obrázky byly načteny do paměti a jejich velikosti upravena na 150x150. Samotné obrázky obsahovaly jenom jeden kanál. Zároveň byly hodnoty pixelu normalizovaný do hodnoty mezi 0 až 1. Mimo jiné byly data upraveny, aby velikost byla kompatibilní s definovanou velikostí modelů.</p>
 <h3 id="V%C3%BDsledek-na%C5%A1%C3%AD-architektury">V&#253;sledek na&#353;&#237; architektury<a class="anchor-link" href="#V%C3%BDsledek-na%C5%A1%C3%AD-architektury">&#182;</a></h3><p>Architektura využívala CNN vrstvy s zvyšujícím počtem filtru. CNN pracovala se zachováním velikosti obrázku, respektive paddingem. Zároveň za každou vrstvou byl využit pooling o 2x2 čtverci.</p>
 <p>Byl předpoklad určitého přeučení, a proto byly podniknuty kroky v podobě přidání Dropout vrstvy, která zajišťuje určitou míru zachování generalizace neuronové sítě.</p>
 <p>Mimo Drouput vrstvu byla využita i normalizace batche.</p>
@@ -21928,17 +21930,6 @@ class="
 <li>Aplikace sofistikovanějšího předzpracování na data.</li>
 </ul>
 <p>Jednotlivé věci by stáli za vyzkoušení ještě při rozšíření onoho projektu.</p>
-
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 
 </div>
 </div>
